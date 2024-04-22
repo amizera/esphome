@@ -292,24 +292,6 @@ light:
     output: out_32
     id: out_32
 
-  - platform: template
-    name: "Wejscie"
-    device_class: door
-    open_action:
-      - switch.turn_on: out_31
-    stop_action:
-      - switch.turn_off: out_31
-    on_open:
-      - switch.turn_off: out_31
-    toggle_action:
-      - if:
-          condition:
-            - switch.is_off: out_31
-          then:
-            - switch.turn_on: out_31
-          else:
-            - switch.turn_off: out_31
-
 binary_sensor:
   - platform: gpio
     name: 'IN_01'
