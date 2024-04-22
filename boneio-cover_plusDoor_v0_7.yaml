@@ -283,14 +283,14 @@ cover:
       - switch.turn_off: cover_close_15_out30
 
 light:
-  - platform: output
-    name: 'Switch 31'
+  - platform: binary
+    name: 'Drzwi 31'
     output: out_31
-    id: out_31
-  - platform: output
-    name: 'Switch 32'
+    id: drzwi_31
+  - platform: binary
+    name: 'Furtka 32'
     output: out_32
-    id: out_32
+    id: furtka_32
 
 binary_sensor:
   - platform: gpio
