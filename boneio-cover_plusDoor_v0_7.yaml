@@ -286,6 +286,10 @@ lock:
   - platform: output
     name: "Drzwi"
     output: lock_01
+    on_unlock:
+      then:
+        - delay: 2000ms
+        - lock.lock: lock_01
 
 binary_sensor:
   - platform: gpio
@@ -680,13 +684,13 @@ binary_sensor:
       number: 11
       mode:
         input: true
-      inverted: true
-    on_press:
-      then:
-        - cover.open: cover_13
-    on_release:
-      then:
-        - cover.stop: cover_13
+    # inverted: true
+    # on_press:
+    #   then:
+    #     - cover.open: cover_13
+    # on_release:
+    #   then:
+    #     - cover.stop: cover_13
 
   - platform: gpio
     name: 'IN_26'
@@ -696,13 +700,13 @@ binary_sensor:
       number: 12
       mode:
         input: true
-      inverted: true
-    on_press:
-      then:
-        - cover.close: cover_13
-    on_release:
-      then:
-        - cover.stop: cover_13
+    #   inverted: true
+    # on_press:
+    #   then:
+    #     - cover.close: cover_13
+    # on_release:
+    #   then:
+    #     - cover.stop: cover_13
 
   - platform: gpio
     name: 'IN_27'
@@ -712,13 +716,13 @@ binary_sensor:
       number: 13
       mode:
         input: true
-      inverted: true
-    on_press:
-      then:
-        - cover.open: cover_14
-    on_release:
-      then:
-        - cover.stop: cover_14
+    #   inverted: true
+    # on_press:
+    #   then:
+    #     - cover.open: cover_14
+    # on_release:
+    #   then:
+    #     - cover.stop: cover_14
 
   - platform: gpio
     name: 'IN_28'
@@ -728,13 +732,13 @@ binary_sensor:
       number: 14
       mode:
         input: true
-      inverted: true
-    on_press:
-      then:
-        - cover.close: cover_14
-    on_release:
-      then:
-        - cover.stop: cover_14
+    #   inverted: true
+    # on_press:
+    #   then:
+    #     - cover.close: cover_14
+    # on_release:
+    #   then:
+    #     - cover.stop: cover_14
 
   - platform: gpio
     name: 'IN_29'
@@ -744,13 +748,13 @@ binary_sensor:
       number: 0
       mode:
         input: true
-      inverted: true
-    on_press:
-      then:
-        - cover.open: cover_15
-    on_release:
-      then:
-        - cover.stop: cover_15
+    #   inverted: true
+    # on_press:
+    #   then:
+    #     - cover.open: cover_15
+    # on_release:
+    #   then:
+    #     - cover.stop: cover_15
 
   - platform: gpio
     name: 'IN_30'
@@ -760,13 +764,13 @@ binary_sensor:
       number: 1
       mode:
         input: true
-      inverted: true
-    on_press:
-      then:
-        - cover.close: cover_15
-    on_release:
-      then:
-        - cover.stop: cover_15
+    #   inverted: true
+    # on_press:
+    #   then:
+    #     - cover.close: cover_15
+    # on_release:
+    #   then:
+    #     - cover.stop: cover_15
 
   - platform: gpio
     name: 'IN_31'
@@ -776,7 +780,7 @@ binary_sensor:
       number: 2
       mode:
         input: true
-      inverted: true
+      # inverted: true
     # on_press:
     #   then:
     #     - cover.open: cover_16
@@ -792,7 +796,7 @@ binary_sensor:
       number: 3
       mode:
         input: true
-      inverted: true
+      # inverted: true
     # on_press:
     #   then:
     #     - cover.close: cover_16
@@ -807,7 +811,7 @@ binary_sensor:
       number: 4
       mode:
         input: true
-      inverted: true
+      # inverted: true
 
   - platform: gpio
     name: 'IN_34'
@@ -816,7 +820,7 @@ binary_sensor:
       number: 5
       mode:
         input: true
-      inverted: true
+      # inverted: true
 
   - platform: gpio
     name: 'IN_35'
@@ -825,4 +829,4 @@ binary_sensor:
       number: 6
       mode:
         input: true
-      inverted: true
+      # inverted: true
