@@ -287,6 +287,10 @@ light:
     name: 'Drzwi 31'
     output: out_31
     id: drzwi_31
+    on_turn_on:
+      then:
+        - delay: 500ms
+        - switch.turn_off: out_31
   - platform: binary
     name: 'Furtka 32'
     output: out_32
@@ -782,12 +786,12 @@ binary_sensor:
       mode:
         input: true
       inverted: true
-    on_press:
-      then:
-        - cover.open: cover_16
-    on_release:
-      then:
-        - cover.stop: cover_16
+    # on_press:
+    #   then:
+    #     - cover.open: cover_16
+    # on_release:
+    #   then:
+    #     - cover.stop: cover_16
 
   - platform: gpio
     name: 'IN_32'
@@ -798,12 +802,12 @@ binary_sensor:
       mode:
         input: true
       inverted: true
-    on_press:
-      then:
-        - cover.close: cover_16
-    on_release:
-      then:
-        - cover.stop: cover_16
+    # on_press:
+    #   then:
+    #     - cover.close: cover_16
+    # on_release:
+    #   then:
+    #     - cover.stop: cover_16
 
   - platform: gpio
     name: 'IN_33'
