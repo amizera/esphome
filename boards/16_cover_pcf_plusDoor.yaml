@@ -344,6 +344,8 @@ switch:
     interlock: *cover_interlock_15
     restore_mode: always off
 
+output:
+
   - platform: gpio
     id: out_31
     pin:

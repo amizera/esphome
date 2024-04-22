@@ -285,11 +285,11 @@ cover:
   - platform: output
     name: 'Switch 31'
     output: out_31
-    id: switch_31
+    id: out_31
   - platform: output
     name: 'Switch 32'
     output: out_32
-    id: switch_32
+    id: out_32
 
   - platform: template
     name: "Wejscie"
