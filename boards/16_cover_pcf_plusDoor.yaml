@@ -354,13 +354,13 @@ output:
       mode:
         output: true
       inverted: true
-    interlock: &out_interlock_31_32 [out31, out32]
+    interlock: &interlock_31_32 [out_31, out_32]
     interlock_wait_time: 5ms
     restore_mode: always off
     on_turn_on:
       then:
         - delay: 500ms
-        - switch.turn_off: relay_31
+        - switch.turn_off: out_31
 
   - platform: gpio
     id: out_32
@@ -370,9 +370,9 @@ output:
       mode:
         output: true
       inverted: true
-    interlock: *out_interlock_31_32
+    interlock: *interlock_31_32
     restore_mode: always off
     on_turn_on:
       then:
         - delay: 500ms
-        - switch.turn_off: relay_32
+        - switch.turn_off: out_32

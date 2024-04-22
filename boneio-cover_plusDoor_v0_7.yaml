@@ -28,8 +28,8 @@ dashboard_import:
 
 packages:
   internals_packages:
-    url: https://github.com/boneIO-eu/esphome
-    ref: v1.0.4
+    url: https://github.com/amizera/esphome
+    #ref: v1.0.4
     files: [
         'devices/buzzer.yaml',
         'devices_v0_7/display.yaml',
