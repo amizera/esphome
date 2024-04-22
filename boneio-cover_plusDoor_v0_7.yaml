@@ -290,7 +290,7 @@ light:
     on_turn_on:
       then:
         - delay: 500ms
-        - switch.turn_off: out_31
+        - light.turn_off: out_31
   - platform: binary
     name: 'Furtka 32'
     output: out_32
