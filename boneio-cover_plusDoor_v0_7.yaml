@@ -287,10 +287,7 @@ light:
     name: 'Drzwi 31'
     output: out_31
     id: drzwi_31
-    on_turn_on:
-      then:
-        - delay: 500ms
-        - light.turn_off: out_31
+
   - platform: binary
     name: 'Furtka 32'
     output: out_32
