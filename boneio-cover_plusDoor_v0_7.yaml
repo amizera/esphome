@@ -282,16 +282,20 @@ cover:
       - switch.turn_off: cover_open_15_out29
       - switch.turn_off: cover_close_15_out30
 
-light:
+lock:
   - platform: binary
-    name: 'Drzwi 31'
-    output: out_31
-    id: drzwi_31
+    name: 'Drzwi wejsciowe'
+    output: lock_01
+    id: drzwi_01
+  on_turn_on:
+    then: 
+      - delay: 500ms
+      - lock.lock: lock_01
 
   - platform: binary
-    name: 'Furtka 32'
-    output: out_32
-    id: furtka_32
+    name: 'Furtka'
+    output: lock_02
+    id: furtka_01
 
 binary_sensor:
   - platform: gpio

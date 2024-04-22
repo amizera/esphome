@@ -346,7 +346,7 @@ switch:
 
 output:
   - platform: gpio
-    id: out_31
+    id: lock_01
     pin:
       pcf8574: pcf_right
       number: 6
@@ -355,7 +355,7 @@ output:
       inverted: true
 
   - platform: gpio
-    id: out_32
+    id: lock_02
     pin:
       pcf8574: pcf_right
       number: 7
