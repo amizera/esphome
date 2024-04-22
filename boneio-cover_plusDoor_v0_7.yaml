@@ -282,6 +282,7 @@ cover:
       - switch.turn_off: cover_open_15_out29
       - switch.turn_off: cover_close_15_out30
 
+light:
   - platform: output
     name: 'Switch 31'
     output: out_31
