@@ -23,7 +23,7 @@ ethernet:
   power_pin: GPIO16
 
 dashboard_import:
-  package_import_url: github://boneIO-eu/amizera/boneio-cover_plusDoor_v0_7.yaml
+  package_import_url: github://boneIO-eu/amizera/boneio-cover_plusDoor_v0_7.yaml@v1.0.0
   import_full_config: true
 
 packages:
