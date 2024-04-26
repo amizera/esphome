@@ -352,7 +352,7 @@ output:
       number: 6
       mode:
         output: true
-      inverted: true
+  #    inverted: true
 
   - platform: gpio
     id: lock_02
