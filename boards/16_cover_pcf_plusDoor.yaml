@@ -352,8 +352,8 @@ output:
       number: 6
       mode:
         output: true
-      inverted: true
-    restore_mode: always off
+#      inverted: true
+#    restore_mode: always off
     
 
   - platform: gpio
