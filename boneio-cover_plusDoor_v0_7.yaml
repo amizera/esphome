@@ -1,6 +1,6 @@
 substitutions:
   name: boneio-c-07
-  friendly_name: 'BoneIO ESP Cover'
+  friendly_name: 'BoneIO Rolety'
 
 esphome:
   name: '${name}'
@@ -73,7 +73,7 @@ cover:
       - switch.turn_off: cover_close_01_out02
 
   - platform: time_based
-    name: 'Cover 02'
+    name: 'Łazienka'
     id: cover_02
     open_action:
       - switch.turn_off: cover_close_02_out04
@@ -88,7 +88,7 @@ cover:
       - switch.turn_off: cover_close_02_out04
 
   - platform: time_based
-    name: 'Cover 03'
+    name: 'Kuchnia drzwi'
     id: cover_03
     open_action:
       - switch.turn_off: cover_close_03_out06
@@ -103,7 +103,7 @@ cover:
       - switch.turn_off: cover_close_03_out06
 
   - platform: time_based
-    name: 'Cover 04'
+    name: 'Gabinet'
     id: cover_04
     open_action:
       - switch.turn_off: cover_close_04_out08
@@ -118,7 +118,7 @@ cover:
       - switch.turn_off: cover_close_04_out08
 
   - platform: time_based
-    name: 'Cover 05'
+    name: 'Kuchnia okno'
     id: cover_05
     open_action:
       - switch.turn_off: cover_close_05_out10
@@ -133,7 +133,7 @@ cover:
       - switch.turn_off: cover_close_05_out10
 
   - platform: time_based
-    name: 'Cover 06'
+    name: 'Pralnia'
     id: cover_06
     open_action:
       - switch.turn_off: cover_close_06_out12
@@ -148,7 +148,7 @@ cover:
       - switch.turn_off: cover_close_06_out12
 
   - platform: time_based
-    name: 'Cover 07'
+    name: 'Salon FIX'
     id: cover_07
     open_action:
       - switch.turn_off: cover_close_07_out14
@@ -163,7 +163,7 @@ cover:
       - switch.turn_off: cover_close_07_out14
 
   - platform: time_based
-    name: 'Cover 08'
+    name: 'Salon drzwi'
     id: cover_08
     open_action:
       - switch.turn_off: cover_close_08_out16
@@ -178,7 +178,7 @@ cover:
       - switch.turn_off: cover_close_08_out16
 
   - platform: time_based
-    name: 'Cover 09'
+    name: 'Salon HS FIX'
     id: cover_09
     open_action:
       - switch.turn_off: cover_close_09_out18
@@ -193,7 +193,7 @@ cover:
       - switch.turn_off: cover_close_09_out18
 
   - platform: time_based
-    name: 'Cover 10'
+    name: 'Salon HS'
     id: cover_10
     open_action:
       - switch.turn_off: cover_close_10_out20
