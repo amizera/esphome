@@ -102,7 +102,7 @@ light:
     output: out_11
     id: light_11
   - platform: binary
-    name: 'Light 12'
+    name: 'Kuchnia'
     output: out_12
     id: light_12
   - platform: binary
@@ -110,7 +110,7 @@ light:
     output: out_13
     id: light_13
   - platform: binary
-    name: 'Light 14'
+    name: 'Salon HS'
     output: out_14
     id: light_14
   - platform: binary
@@ -118,11 +118,11 @@ light:
     output: out_15
     id: light_15
   - platform: binary
-    name: 'Light 16'
+    name: 'Serwerownia'
     output: out_16
     id: light_16
   - platform: binary
-    name: 'Light 17'
+    name: 'Gabinet'
     output: out_17
     id: light_17
   - platform: binary
@@ -134,7 +134,7 @@ light:
     output: out_19
     id: light_19
   - platform: binary
-    name: 'Light 20'
+    name: 'Korytarz D'
     output: out_20
     id: light_20
   - platform: binary
@@ -146,7 +146,7 @@ light:
     output: out_22
     id: light_22
   - platform: binary
-    name: 'Light 23'
+    name: 'Łazienka Dół'
     output: out_23
     id: light_23
   - platform: binary
@@ -166,7 +166,7 @@ light:
     output: out_27
     id: light_27
   - platform: binary
-    name: 'Light 28'
+    name: 'Salon FIX'
     output: out_28
     id: light_28
   - platform: binary
