@@ -815,7 +815,7 @@ binary_sensor:
       # inverted: true
 
   - platform: gpio
-    name: 'IN_34'
+    name: 'Drzwi_Kontaktron'
     pin:
       pcf8574: pcf_inputs_28to35_menu
       number: 5
