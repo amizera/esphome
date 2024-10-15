@@ -662,23 +662,23 @@ binary_sensor:
         - cover.stop: cover_12
 
   - platform: gpio
-    name: 'IN_24'
+    name: 'Salon_HS'
     id: in_24
     pin:
       pcf8574: pcf_inputs_15to28
       number: 10
       mode:
         input: true
-      inverted: true
-    on_press:
-      then:
-        - cover.close: cover_12
-    on_release:
-      then:
-        - cover.stop: cover_12
+    #   inverted: true
+    # on_press:
+    #   then:
+    #     - cover.close: cover_12
+    # on_release:
+    #   then:
+    #     - cover.stop: cover_12
 
   - platform: gpio
-    name: 'IN_25'
+    name: 'Pralnia_OS'
     id: in_25
     pin:
       pcf8574: pcf_inputs_15to28
@@ -694,7 +694,7 @@ binary_sensor:
     #     - cover.stop: cover_13
 
   - platform: gpio
-    name: 'IN_26'
+    name: 'Pralnia_OU'
     id: in_26
     pin:
       pcf8574: pcf_inputs_15to28
@@ -710,7 +710,7 @@ binary_sensor:
     #     - cover.stop: cover_13
 
   - platform: gpio
-    name: 'IN_27'
+    name: 'SALON_DS'
     id: in_27
     pin:
       pcf8574: pcf_inputs_15to28
@@ -726,7 +726,7 @@ binary_sensor:
     #     - cover.stop: cover_14
 
   - platform: gpio
-    name: 'IN_28'
+    name: 'SALON_DU'
     id: in_28
     pin:
       pcf8574: pcf_inputs_15to28
@@ -742,7 +742,7 @@ binary_sensor:
     #     - cover.stop: cover_14
 
   - platform: gpio
-    name: 'IN_29'
+    name: 'Kuchnia_DU'
     id: in_29
     pin:
       pcf8574: pcf_inputs_28to35_menu
@@ -758,7 +758,7 @@ binary_sensor:
     #     - cover.stop: cover_15
 
   - platform: gpio
-    name: 'IN_30'
+    name: 'Kuchnia_DS'
     id: in_30
     pin:
       pcf8574: pcf_inputs_28to35_menu
@@ -774,7 +774,7 @@ binary_sensor:
     #     - cover.stop: cover_15
 
   - platform: gpio
-    name: 'IN_31'
+    name: 'Kuchnia_OU'
     id: in_31
     pin:
       pcf8574: pcf_inputs_28to35_menu
@@ -790,7 +790,7 @@ binary_sensor:
     #     - cover.stop: cover_16
 
   - platform: gpio
-    name: 'IN_32'
+    name: 'Łazienka_OS'
     id: in_32
     pin:
       pcf8574: pcf_inputs_28to35_menu
@@ -806,7 +806,8 @@ binary_sensor:
     #     - cover.stop: cover_16
 
   - platform: gpio
-    name: 'IN_33'
+    name: 'Łazienka_OU'
+    id: in_33
     pin:
       pcf8574: pcf_inputs_28to35_menu
       number: 4
@@ -824,7 +825,8 @@ binary_sensor:
       # inverted: true
 
   - platform: gpio
-    name: 'IN_35'
+    name: 'Gabinet_OU'
+    id: in_35
     pin:
       pcf8574: pcf_inputs_28to35_menu
       number: 6
