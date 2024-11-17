@@ -208,7 +208,7 @@ cover:
       - switch.turn_off: cover_close_10_out20
 
   - platform: time_based
-    name: 'Cover 11'
+    name: 'Pokój Ku'
     id: cover_11
     open_action:
       - switch.turn_off: cover_close_11_out22
