@@ -93,11 +93,11 @@ cover:
     open_action:
       - switch.turn_off: cover_close_03_out06
       - switch.turn_on: cover_open_03_out05
-    open_duration: 33s
+    open_duration: 27s
     close_action:
       - switch.turn_off: cover_open_03_out05
       - switch.turn_on: cover_close_03_out06
-    close_duration: 33s
+    close_duration: 24s
     stop_action:
       - switch.turn_off: cover_open_03_out05
       - switch.turn_off: cover_close_03_out06
@@ -238,16 +238,16 @@ cover:
       - switch.turn_off: cover_close_12_out24
 
   - platform: time_based
-    name: 'Cover 13'
+    name: 'Sypialnia'
     id: cover_13
     open_action:
       - switch.turn_off: cover_close_13_out26
       - switch.turn_on: cover_open_13_out25
-    open_duration: 18s
+    open_duration: 27s
     close_action:
       - switch.turn_off: cover_open_13_out25
       - switch.turn_on: cover_close_13_out26
-    close_duration: 17s
+    close_duration: 24s
     stop_action:
       - switch.turn_off: cover_open_13_out25
       - switch.turn_off: cover_close_13_out26
