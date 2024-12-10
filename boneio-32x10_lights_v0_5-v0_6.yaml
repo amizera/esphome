@@ -99,11 +99,11 @@ light:
     output: out_09
     id: light_09
   - platform: binary
-    name: 'Light 10'
+    name: 'Sufit Ku'
     output: out_10
     id: light_10
   - platform: binary
-    name: 'Light 11'
+    name: 'Sufit Ki'
     output: out_11
     id: light_11
   - platform: binary
@@ -119,7 +119,7 @@ light:
     output: out_14
     id: light_14
   - platform: binary
-    name: 'Light 15'
+    name: 'Salon Stół'
     output: out_15
     id: light_15
   - platform: binary
@@ -131,7 +131,7 @@ light:
     output: out_17
     id: light_17
   - platform: binary
-    name: 'Light 18'
+    name: 'Sypialnia'
     output: out_18
     id: light_18
   - platform: binary
@@ -167,7 +167,7 @@ light:
     output: out_26
     id: light_26
   - platform: binary
-    name: 'Light 27'
+    name: 'Salon FIX LED'
     output: out_27
     id: light_27
   - platform: binary

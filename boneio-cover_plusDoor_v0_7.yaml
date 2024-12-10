@@ -663,6 +663,7 @@ binary_sensor:
 
   - platform: gpio
     name: 'Salon_HS'
+    device_class: window
     id: in_24
     pin:
       pcf8574: pcf_inputs_15to28
@@ -679,6 +680,7 @@ binary_sensor:
 
   - platform: gpio
     name: 'Pralnia_OS'
+    device_class: window
     id: in_25
     pin:
       pcf8574: pcf_inputs_15to28
@@ -695,6 +697,7 @@ binary_sensor:
 
   - platform: gpio
     name: 'Pralnia_OU'
+    device_class: window
     id: in_26
     pin:
       pcf8574: pcf_inputs_15to28
@@ -711,6 +714,7 @@ binary_sensor:
 
   - platform: gpio
     name: 'SALON_DS'
+    device_class: window
     id: in_27
     pin:
       pcf8574: pcf_inputs_15to28
@@ -727,6 +731,7 @@ binary_sensor:
 
   - platform: gpio
     name: 'SALON_DU'
+    device_class: window
     id: in_28
     pin:
       pcf8574: pcf_inputs_15to28
@@ -743,6 +748,7 @@ binary_sensor:
 
   - platform: gpio
     name: 'Kuchnia_DU'
+    device_class: window
     id: in_29
     pin:
       pcf8574: pcf_inputs_28to35_menu
@@ -759,6 +765,7 @@ binary_sensor:
 
   - platform: gpio
     name: 'Kuchnia_DS'
+    device_class: window
     id: in_30
     pin:
       pcf8574: pcf_inputs_28to35_menu
@@ -775,6 +782,7 @@ binary_sensor:
 
   - platform: gpio
     name: 'Kuchnia_OU'
+    device_class: window
     id: in_31
     pin:
       pcf8574: pcf_inputs_28to35_menu
@@ -791,6 +799,7 @@ binary_sensor:
 
   - platform: gpio
     name: 'Łazienka_OS'
+    device_class: window
     id: in_32
     pin:
       pcf8574: pcf_inputs_28to35_menu
@@ -807,6 +816,7 @@ binary_sensor:
 
   - platform: gpio
     name: 'Łazienka_OU'
+    device_class: window
     id: in_33
     pin:
       pcf8574: pcf_inputs_28to35_menu
@@ -826,6 +836,7 @@ binary_sensor:
 
   - platform: gpio
     name: 'Gabinet_OU'
+    device_class: window
     id: in_35
     pin:
       pcf8574: pcf_inputs_28to35_menu
