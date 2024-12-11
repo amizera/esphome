@@ -94,6 +94,7 @@ cover:
 
   - platform: time_based
     name: 'Kuchnia drzwi'
+    device_class: shutter
     id: cover_03
     open_action:
       - switch.turn_off: cover_close_03_out06
@@ -109,6 +110,7 @@ cover:
 
   - platform: time_based
     name: 'Gabinet'
+    device_class: shutter
     id: cover_04
     open_action:
       - switch.turn_off: cover_close_04_out08
@@ -124,6 +126,7 @@ cover:
 
   - platform: time_based
     name: 'Kuchnia okno'
+    device_class: shutter
     id: cover_05
     open_action:
       - switch.turn_off: cover_close_05_out10
@@ -139,6 +142,7 @@ cover:
 
   - platform: time_based
     name: 'Pralnia'
+    device_class: shutter
     id: cover_06
     open_action:
       - switch.turn_off: cover_close_06_out12
@@ -154,6 +158,7 @@ cover:
 
   - platform: time_based
     name: 'Salon FIX'
+    device_class: shutter
     id: cover_07
     open_action:
       - switch.turn_off: cover_close_07_out14
@@ -169,6 +174,7 @@ cover:
 
   - platform: time_based
     name: 'Salon drzwi'
+    device_class: shutter
     id: cover_08
     open_action:
       - switch.turn_off: cover_close_08_out16
@@ -184,6 +190,7 @@ cover:
 
   - platform: time_based
     name: 'Salon HS FIX'
+    device_class: shutter
     id: cover_09
     open_action:
       - switch.turn_off: cover_close_09_out18
@@ -199,6 +206,7 @@ cover:
 
   - platform: time_based
     name: 'Salon HS'
+    device_class: shutter
     id: cover_10
     open_action:
       - switch.turn_off: cover_close_10_out20
@@ -214,6 +222,7 @@ cover:
 
   - platform: time_based
     name: 'Pokój Ku'
+    device_class: shutter
     id: cover_11
     open_action:
       - switch.turn_off: cover_close_11_out22
@@ -229,6 +238,7 @@ cover:
 
   - platform: time_based
     name: 'Pokój Ki'
+    device_class: shutter
     id: cover_12
     open_action:
       - switch.turn_off: cover_close_12_out24
@@ -244,6 +254,7 @@ cover:
 
   - platform: time_based
     name: 'Sypialnia'
+    device_class: shutter
     id: cover_13
     open_action:
       - switch.turn_off: cover_close_13_out26
@@ -290,6 +301,7 @@ cover:
 lock:
   - platform: output
     name: "Drzwi"
+    device_class: door
     id: door_01
     output: lock_01
     on_unlock:
