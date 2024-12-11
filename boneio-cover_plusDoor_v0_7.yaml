@@ -78,6 +78,7 @@ cover:
 
   - platform: time_based
     name: 'Łazienka'
+    device_class: shutter
     id: cover_02
     open_action:
       - switch.turn_off: cover_close_02_out04
