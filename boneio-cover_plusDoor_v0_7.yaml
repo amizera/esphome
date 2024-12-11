@@ -1,6 +1,6 @@
 substitutions:
   name: boneio-c-07
-  friendly_name: 'BoneIO Rolety'
+  friendly_name: 'Roleta'
 
 esphome:
   name: '${name}'
@@ -301,7 +301,6 @@ cover:
 lock:
   - platform: output
     name: "Drzwi"
-    device_class: door
     id: door_01
     output: lock_01
     on_unlock:
@@ -844,6 +843,7 @@ binary_sensor:
 
   - platform: gpio
     name: 'Drzwi_Wejściowe'
+    device_class: door
     pin:
       pcf8574: pcf_inputs_28to35_menu
       number: 5
