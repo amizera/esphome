@@ -221,7 +221,7 @@ cover:
       - switch.turn_off: cover_close_10_out20
 
   - platform: time_based
-    name: 'Sypialnia Zachodnia''
+    name: 'Sypialnia Zachodnia'
     device_class: shutter
     id: cover_11
     open_action:
@@ -237,7 +237,7 @@ cover:
       - switch.turn_off: cover_close_11_out22
 
   - platform: time_based
-    name: 'Sypialnia Wschodnia''
+    name: 'Sypialnia Wschodnia'
     device_class: shutter
     id: cover_12
     open_action:
