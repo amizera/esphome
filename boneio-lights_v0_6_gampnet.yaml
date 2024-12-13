@@ -99,11 +99,11 @@ light:
     output: out_09
     id: light_09
   - platform: binary
-    name: 'Sufit Ku'
+    name: 'Sypialnia Zachodnia'
     output: out_10
     id: light_10
   - platform: binary
-    name: 'Sufit Ki'
+    name: 'Sypialnia Wschodnia'
     output: out_11
     id: light_11
   - platform: binary
@@ -131,7 +131,7 @@ light:
     output: out_17
     id: light_17
   - platform: binary
-    name: 'Sypialnia'
+    name: 'Sypialnia Południowa'
     output: out_18
     id: light_18
   - platform: binary
