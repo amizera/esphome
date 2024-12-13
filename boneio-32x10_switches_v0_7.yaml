@@ -5,7 +5,7 @@ substitutions:
 esphome:
   name: '${name}'
   friendly_name: '${friendly_name}'
-  name_add_mac_suffix: true
+  name_add_mac_suffix: false
   project:
     name: boneio.32x10-lights
     version: '0.7'
