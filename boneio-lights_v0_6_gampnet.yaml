@@ -1,5 +1,5 @@
 substitutions:
-  name: boneio-ligts
+  name: boneio-lights
   friendly_name: 'Światło'
 
 esphome:
