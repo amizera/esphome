@@ -1,11 +1,11 @@
 substitutions:
-  name: boneio-32-l-06
-  friendly_name: 'BoneIO Lights'
+  name: boneio-ligts
+  friendly_name: 'Światło'
 
 esphome:
   name: '${name}'
   friendly_name: '${friendly_name}'
-  name_add_mac_suffix: true
+  name_add_mac_suffix: false
   project:
     name: boneio.32x10-lights_v0_5-v0_6
     version: '0.6'
