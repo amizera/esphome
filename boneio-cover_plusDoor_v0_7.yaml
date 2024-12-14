@@ -284,7 +284,7 @@ cover:
       - switch.turn_off: cover_close_14_out28
 
   - platform: time_based
-    name: 'Cover 15'
+    name: 'Pompa Cyrkulacji'
     id: cover_15
     open_action:
       - switch.turn_off: cover_close_15_out30
@@ -297,6 +297,12 @@ cover:
     stop_action:
       - switch.turn_off: cover_open_15_out29
       - switch.turn_off: cover_close_15_out30
+
+switch:
+  - platform: output
+    name: 'Pompa Cyrkulacji'
+    output: pompa_01
+    id: pompa_01
 
 lock:
   - platform: output
