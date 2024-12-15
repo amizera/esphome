@@ -321,6 +321,29 @@ switch:
     interlock: *cover_interlock_14
     restore_mode: always off
 
+
+
+output:
+  - platform: gpio
+    id: lock_01
+    pin:
+      pcf8574: pcf_right
+      number: 6
+      mode:
+        output: true
+#      inverted: true
+#    restore_mode: always off
+    
+
+  - platform: gpio
+    id: lock_02
+    pin:
+      pcf8574: pcf_right
+      number: 7
+      mode:
+        output: true
+      inverted: true
+
   - platform: gpio
     id: empty_01
     pin:
@@ -343,24 +366,3 @@ switch:
       inverted: true
     interlock: *cover_interlock_15
     restore_mode: always off
-
-output:
-  - platform: gpio
-    id: lock_01
-    pin:
-      pcf8574: pcf_right
-      number: 6
-      mode:
-        output: true
-#      inverted: true
-#    restore_mode: always off
-    
-
-  - platform: gpio
-    id: lock_02
-    pin:
-      pcf8574: pcf_right
-      number: 7
-      mode:
-        output: true
-      inverted: true
