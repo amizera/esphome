@@ -301,7 +301,7 @@ cover:
 switch:
   - platform: output
     name: 'Pompa Cyrkulacji'
-    id: pompa_01
+    id: pompa_cyrkulacji
     output: pompa_01
     
 
