@@ -329,7 +329,7 @@ switch:
       mode:
         output: true
       inverted: true
-    interlock: &cover_interlock_15 [empty_01, pompa_01]
+    interlock: &cover_interlock_15 [empty_01, pump_01]
     interlock_wait_time: 5ms
     restore_mode: always off
 
