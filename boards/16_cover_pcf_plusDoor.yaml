@@ -334,7 +334,7 @@ switch:
     restore_mode: always off
 
   - platform: gpio
-    id: pompa_01
+    id: pump_01
     pin:
       pcf8574: pcf_right
       number: 5
