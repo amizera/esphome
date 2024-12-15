@@ -324,7 +324,7 @@ switch:
 output:
 
   - platform: gpio
-    id: empty_01
+    id: pump_01
     pin:
       pcf8574: pcf_right
       number: 4
@@ -332,7 +332,7 @@ output:
         output: true
 
   - platform: gpio
-    id: pump_01
+    id: empty_01
     pin:
       pcf8574: pcf_right
       number: 5
