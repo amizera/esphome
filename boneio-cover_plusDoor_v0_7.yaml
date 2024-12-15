@@ -298,11 +298,11 @@ cover:
   #     - switch.turn_off: cover_open_15_out29
   #     - switch.turn_off: cover_close_15_out30
 
-# switch:
-#   - platform: output
-#     name: 'Pompa Cyrkulacji'
-#     id: pompa_01
-#     output: pump_01
+switch:
+  - platform: output
+    name: 'Pompa Cyrkulacji'
+    id: pompa_01
+    output: pompa_01
     
 
 lock:
