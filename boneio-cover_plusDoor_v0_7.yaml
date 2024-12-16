@@ -315,14 +315,14 @@ lock:
         - delay: 2000ms
         - lock.lock: door_01
 
-  - platform: output
-    name: "Furtka"
-    id: door_02
-    output: lock_02
-    on_unlock:
-      then:
-        - delay: 2000ms
-        - lock.lock: door_02   
+  # - platform: output
+  #   name: "Furtka"
+  #   id: door_02
+  #   output: lock_02
+  #   on_unlock:
+  #     then:
+  #       - delay: 2000ms
+  #       - lock.lock: door_02   
 
 binary_sensor:
   - platform: gpio

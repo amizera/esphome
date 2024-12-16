@@ -345,14 +345,14 @@ output:
       pcf8574: pcf_right
       number: 6
       mode:
-        output: true
+        output: truea
 #    restore_mode: always off 
 
-  - platform: gpio
-    id: lock_02
-    pin:
-      pcf8574: pcf_right
-      number: 7
-      mode:
-        output: true
-      inverted: true
+  # - platform: gpio
+  #   id: lock_02
+  #   pin:
+  #     pcf8574: pcf_right
+  #     number: 7
+  #     mode:
+  #       output: true
+  #     inverted: true
