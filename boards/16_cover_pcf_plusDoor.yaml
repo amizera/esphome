@@ -345,7 +345,7 @@ output:
       pcf8574: pcf_right
       number: 6
       mode:
-        output: truea
+        output: true
 #    restore_mode: always off 
 
   # - platform: gpio
