@@ -346,6 +346,8 @@ output:
       number: 6
       mode:
         output: true
+#      inverted: true
+#    restore_mode: always off 
 
   - platform: gpio
     id: lock_02
@@ -354,3 +356,4 @@ output:
       number: 7
       mode:
         output: true
+      inverted: true
